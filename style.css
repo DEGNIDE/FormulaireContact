@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, sans-serif;/*la police de caractere*/
+}
+
+form input, form textarea {
+            display: block;    /*mettre les blocks les uns au dessus des autres*/
+            margin-top: 20px;  /*espacer un peu verticalement*/
+            padding: 10px;     /* de l'espacement à l'intérieur des blocks*/
+            width: 300px;      /* une largeur unique */
+            font-family: Arial, sans-serif; /* a nouveau la font family pour les inputs*/
+            font-size: 16px;  /* on va uniformisez les largeurs*/
+            border-radius: 5px;   /* arrondir un peu les bordures*/
+            border-width: 1px; /* une largeur de bordure */
+            border-style: solid;
+}
+
+forminput[type=submit]{
+    width: auto;   /*sa largeur est celle de son contenu*/
+}
